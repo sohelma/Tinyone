@@ -1,0 +1,70 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&family=PT+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'PT Sans', sans-serif;
+    box-sizing: border-box; /* Border-box: padding use korle box boro hoi. Atake control kore. */
+    scroll-behavior: smooth;     /* about page a click korle smoothly scroll hobe. suddenly na*/
+}
+h1,h2,h3,h4,h5,h6{font-family: 'PT Sans', sans-serif;}
+
+/*------headline a oswald use so h ke dia upore only open sens p are jonn raklam------*/
+
+/*------first part start------*/
+.first{background:#fcdb00;
+width: 100%;
+height: auto;
+}
+.navbar-expand-lg .navbar-collapse {
+    margin-right: 140px;font-size: 20px;}
+.navbar-brand {font-size: 30px;font-weight: 600;
+    margin-left: 30px;
+}
+.ipad{padding-bottom: 60px;
+}
+
+.inspect_left{padding: 80px 0 80px;}
+.inspect_left h2{font-size: 34px;font-weight: 600;}
+.inspect_left h4{font-size: 22px;}
+.inspect_left p{font-size: 18px;}
+.first_left{list-style-type: none; padding-left: 0px;}
+
+/*------menu part start------*/
+.collapse ul li {gap: 8px;}
+/*------ipad start------*/
+.inspect_left ul li a{color: black;font-size: 30px;}
+.inspect_left{line-height: 1.5;padding: 80px 31px}
+/*------feature part start------*/
+.feature_icon li{font-size: 30px;}
+.feature_icon{list-style-type: none;}
+.feature_con h5{color: black;}
+.session_head h2{font-weight: 600;color: black;
+}
+.feature_con{color: gray;}
+.secsion_head p {font-size: 20px;color: #000;}
+.secsion_head h2{font-weight: 600;}
+/*------footer part start ------*/
+footer{background: #000;color: gray;}
+.footer_head h2{color: #fcdb00;font-weight: 600;}
+.footer_head p{color: #b5b3b3;font-size: 20px;} 
+/* .footer_head p{padding: 0 220px 0;color: #b5b3b3;} */
+/*--------------*/
+.end_icon ul li {list-style: none;}
+.end_icon ul li a{list-style: none;
+background: #fcdb00;color: #000;
+border-radius: 10%;font-size: 20px;
+border: 4px solid #fcdb00;
+padding: 0 3px 0;
+}
+ol, ul {padding-left: 0;
+    /* padding-left: 2rem; bootstrap*/
+}
+.footer_end li{list-style: none;}
+/*------testimonial part start ------*/
+/*------footer-link part start ------*/
+/*------footer part start ------*/
+.btn{background: #fcdb00;font-weight: 700;}
